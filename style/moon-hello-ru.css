@@ -33,8 +33,7 @@ h6 {
 }
 
 .top {
-    background: rgb(159, 193, 224);
-    background: linear-gradient(0deg, rgba(159, 193, 224, 1) 0%, rgba(93, 108, 125, 1) 100%);
+   background-color: #090C0D;
 }
 
 .bg-fullscreen {

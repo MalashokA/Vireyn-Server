@@ -33,11 +33,12 @@ h6 {
 }
 
 .top {
-    background-color: #090C0D;
+    background: rgb(159, 193, 224);
+    background: linear-gradient(0deg, rgba(159, 193, 224, 1) 0%, rgba(93, 108, 125, 1) 100%);
 }
 
 .bg-fullscreen {
-    background: url('/img/first-site/moon-version/moon-fs.png') no-repeat;
+    background: url('/img/first-site/day-version/ligth-fs2.png') no-repeat;
     background-position-x: center;
     height: 740px;
 }
@@ -71,8 +72,7 @@ h6 {
 
 .home:hover {
     transition: all 0.5s ease;
-    width: 150px;
-    height: 53px;
+    width: 190px;
 }
 
 .news {
@@ -82,7 +82,7 @@ h6 {
 
 .news:hover {
     transition: all 0.5s ease;
-    width: 126px;
+    width: 170px;
 }
 
 .trial {
@@ -92,7 +92,7 @@ h6 {
 
 .trial:hover {
     transition: all 0.5s ease;
-    width: 134px;
+    width: 80px;
 }
 
 .rules {
@@ -101,7 +101,7 @@ h6 {
 
 .rules:hover {
     transition: all 0.5s ease;
-    width: 147px;
+    width: 163px;
 }
 
 /* settings-lang */
@@ -146,15 +146,16 @@ h6 {
 
 .bayt-btn {
     /* padding-left: 700px;*/
-    padding-top: 68px;
-    background: url('/img/first-site/moon-version/GO\ LIGHT.png') no-repeat;
+    padding-top: 62px;
+    background: url('/img/first-site/day-version/ua/нІчна\ тема.png') no-repeat;
     background-position-y: 40px;
-    /*background-position-x: 700px; */
+    padding-right: 2px;
+    padding-left: 8px;
 }
 
 .bayt-btn:hover {
     transition: all 0.5s ease;
-    width: 130px;
+    width: 112px;
     /* height: 150px; */
 }
 
@@ -180,7 +181,7 @@ h6 {
     font-weight: 700;
     /* color: #314346; */
     /* font-family: 'Libre Baskerville', serif; */
-    font-size: 40px;
+    font-size: 35px;
     /* -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     background-image: linear-gradient(0deg, rgb(134, 115, 67) 0%, rgb(191, 45, 157) 95%); 
@@ -189,43 +190,50 @@ h6 {
 }
 
 .main-intro-1 {
-    padding-left: 105px;
+    padding-left: 65px;
+    font-size: 20px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(0deg, rgba(188, 219, 13, 0.609) 95%, rgba(5, 1, 4, 0.32) 0%);
-    text-shadow: 0px 3px 7px rgba(17, 116, 47, 0.625);
-    text-decoration: underline
-}
-
-.main-intro-2 {
-    padding-left: 230px;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(0deg, rgba(181, 212, 6, 0.525) 95%, rgba(5, 1, 4, 0.32) 0%);
-    text-shadow: 0px 3px 7px rgba(24, 110, 50, 0.625);
-    text-decoration: underline
-}
-
-.main-intro-3 {
-    padding-left: 310px;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(0deg, rgba(179, 208, 14, 0.398) 95%, rgba(5, 1, 4, 0.32) 0%);
+    background-image: linear-gradient(0deg, rgba(222, 255, 34, 0.916) 95%, rgba(5, 1, 4, 0.32) 0%);
     text-shadow: 0px 3px 7px rgba(32, 155, 69, 0.625);
     text-decoration: underline
 }
 
-.free-main {
+.main-intro-2 {
+    padding-left: 145px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(0deg, rgba(172, 199, 17, 0.763) 95%, rgba(5, 1, 4, 0.32) 0%);
-    text-shadow: 0px 3px 7px rgba(26, 96, 47, 0.784);
-    text-decoration: underline 
+    background-image: linear-gradient(0deg, rgba(222, 255, 34, 0.77) 95%, rgba(5, 1, 4, 0.32) 0%);
+    text-shadow: 0px 3px 7px rgba(32, 155, 69, 0.625);
+    text-decoration: underline
+}
+
+.main-intro-3 {
+    font-size: 25px;
+    padding-left: 220px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(0deg, rgba(222, 255, 34, 0.604) 95%, rgba(5, 1, 4, 0.32) 0%);
+    text-shadow: 0px 3px 7px rgba(32, 155, 69, 0.625);
+    text-decoration: underline
+}
+
+.administration-text {
+    font-size: 22px;
+}
+
+.free-main {
+    font-size: 25px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(0deg, rgba(222, 255, 34, 0.879) 95%, rgba(5, 1, 4, 0.32) 0%);
+    text-shadow: 0px 3px 7px rgba(32, 155, 69, 0.784);
+    text-decoration: underline
 }
 
 /* SECTION 2 */
 .bg-section-2 {
-    background-color: #10161a;
+    background-color: #103c6ec9;
     height: 700px;
 }
 
@@ -235,8 +243,8 @@ h6 {
     text-align: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(0deg, rgba(181, 206, 40, 0.715) 95%, rgba(5, 1, 4, 0.32) 0%);
-    text-shadow: 0px 3px 7px rgba(32, 155, 69, 0.583);
+    background-image: linear-gradient(0deg, rgb(222, 255, 34) 95%, rgba(5, 1, 4, 0.32) 0%);
+    text-shadow: 0px 3px 7px rgba(32, 155, 69, 0.784);
     text-decoration: underline;
 }
 
@@ -247,12 +255,13 @@ h6 {
 }
 
 .m-i-1-section2 {
-    padding-left: 160px;
+    padding-left: 130px;
+    font-weight: 300;
     font-weight: 300;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(0deg, rgba(144, 161, 45, 0.768) 95%, rgba(5, 1, 4, 0.32) 0%);
-    text-shadow: 0px 3px 7px rgba(32, 155, 69, 0.588);
+    background-image: linear-gradient(0deg, rgba(222, 255, 34, 0.879) 95%, rgba(5, 1, 4, 0.32) 0%);
+    text-shadow: 0px 3px 7px rgba(32, 155, 69, 0.784);
     text-decoration: underline;
 }
 
@@ -260,10 +269,10 @@ h6 {
     font-weight: 300;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(0deg, rgba(172, 194, 44, 0.773) 95%, rgba(5, 1, 4, 0.32) 0%);
-    text-shadow: 0px 3px 7px rgba(31, 134, 62, 0.631);
+    background-image: linear-gradient(0deg, rgba(222, 255, 34, 0.879) 95%, rgba(5, 1, 4, 0.32) 0%);
+    text-shadow: 0px 3px 7px rgba(32, 155, 69, 0.784);
     text-decoration: underline;
-    padding-right: 195px;
+    padding-right: 100px;
 }
 
 .picture-section-2 {
@@ -277,7 +286,7 @@ h6 {
     font-size: 25px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(0deg, rgba(163, 187, 25, 0.742) 95%, rgba(35, 7, 28, 0.32) 0%);
+    background-image: linear-gradient(0deg, rgba(169, 198, 6, 0.879) 95%, rgba(35, 7, 28, 0.32) 0%);
 
 }
 
@@ -294,13 +303,13 @@ h6 {
     font-size: 26px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(0deg, rgba(222, 255, 34, 0.742) 95%, rgba(5, 1, 4, 0.32) 0%);
+    background-image: linear-gradient(0deg, rgba(222, 255, 34, 0.879) 95%, rgba(5, 1, 4, 0.32) 0%);
     text-shadow: 0px 3px 7px rgba(32, 155, 69, 0.784);
 }
 
 /* SECTION 3 */
 .discord-bg {
-    background-color: #595454;
+    background-color: #dadada;
     height: 620px;
 }
 

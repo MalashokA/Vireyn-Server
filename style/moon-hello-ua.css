@@ -71,8 +71,7 @@ h6 {
 
 .home:hover {
     transition: all 0.5s ease;
-    width: 150px;
-    height: 53px;
+    height: 44px;
 }
 
 .news {
@@ -82,7 +81,7 @@ h6 {
 
 .news:hover {
     transition: all 0.5s ease;
-    width: 126px;
+    height: 38px;
 }
 
 .trial {
@@ -92,7 +91,7 @@ h6 {
 
 .trial:hover {
     transition: all 0.5s ease;
-    width: 134px;
+    height: 38px;
 }
 
 .rules {
@@ -101,7 +100,7 @@ h6 {
 
 .rules:hover {
     transition: all 0.5s ease;
-    width: 147px;
+    height: 38px;
 }
 
 /* settings-lang */
@@ -147,7 +146,9 @@ h6 {
 .bayt-btn {
     /* padding-left: 700px;*/
     padding-top: 68px;
-    background: url('/img/first-site/moon-version/GO\ LIGHT.png') no-repeat;
+    padding-right: 8px;
+    padding-left: 5px;
+    background: url('/img/first-site/moon-version/ua/свiтла\ тема_.png') no-repeat;
     background-position-y: 40px;
     /*background-position-x: 700px; */
 }
@@ -189,7 +190,8 @@ h6 {
 }
 
 .main-intro-1 {
-    padding-left: 105px;
+    font-size: 32px;
+    padding-left: 95px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(0deg, rgba(188, 219, 13, 0.609) 95%, rgba(5, 1, 4, 0.32) 0%);
@@ -198,7 +200,7 @@ h6 {
 }
 
 .main-intro-2 {
-    padding-left: 230px;
+    padding-left: 190px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(0deg, rgba(181, 212, 6, 0.525) 95%, rgba(5, 1, 4, 0.32) 0%);
@@ -207,7 +209,8 @@ h6 {
 }
 
 .main-intro-3 {
-    padding-left: 310px;
+    font-size: 32px;
+    padding-left: 280px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(0deg, rgba(179, 208, 14, 0.398) 95%, rgba(5, 1, 4, 0.32) 0%);
@@ -216,11 +219,12 @@ h6 {
 }
 
 .free-main {
+    font-size: 35px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(0deg, rgba(172, 199, 17, 0.763) 95%, rgba(5, 1, 4, 0.32) 0%);
     text-shadow: 0px 3px 7px rgba(26, 96, 47, 0.784);
-    text-decoration: underline 
+    text-decoration: underline
 }
 
 /* SECTION 2 */
@@ -232,6 +236,7 @@ h6 {
 .h-section-2 {
     padding: 0;
     padding-top: 10px;
+    font-size: 40px;
     text-align: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -247,7 +252,8 @@ h6 {
 }
 
 .m-i-1-section2 {
-    padding-left: 160px;
+    font-size: 34px;
+    padding-left: 90px;
     font-weight: 300;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -257,13 +263,14 @@ h6 {
 }
 
 .m-i-2-section2 {
+    font-size: 34px;
     font-weight: 300;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(0deg, rgba(172, 194, 44, 0.773) 95%, rgba(5, 1, 4, 0.32) 0%);
     text-shadow: 0px 3px 7px rgba(31, 134, 62, 0.631);
     text-decoration: underline;
-    padding-right: 195px;
+    padding-right: 75px;
 }
 
 .picture-section-2 {

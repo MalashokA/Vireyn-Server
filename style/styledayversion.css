@@ -317,3 +317,119 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: center;
     padding-top: 20px;
 }
+
+@media screen and (max-width: 1400px) {
+    .container {
+        width: 1280px;
+        margin: 0 auto;
+    }
+    .logo-ds-section {
+        padding-left: 20px;
+    }
+    .voice-ds-section {
+        padding-right: 40px;    
+    }    
+    .main-intro-1 {
+        padding-left: 53px;
+    }
+
+    .main-intro-2 {
+        padding-left: 180px;
+    }
+
+    .main-intro-3 {
+        padding-left: 260px;
+    }
+    .home {
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        width: 1180px;
+        margin: 0 auto;
+    }
+    .chat-ds-section {
+        padding: 0 25px;
+    }
+    .main-intro-1 {
+        padding-left: 10px;
+    }
+
+    .main-intro-2 {
+        padding-left: 130px;
+    }
+
+    .main-intro-3 {
+        padding-left: 210px;
+    }
+   .bayt-btn {
+       /* padding-left: 700px;*/
+       height: 130px;
+       padding-top: 76px;
+       background: url('/img/first-site/day-version/GO-DARK-btn.png') no-repeat;
+       background-position-y: 41px;
+       background-size: 110px;
+       /*background-position-x: 700px; */
+   }
+
+   .bayt-btn:hover {
+       transition: all 0.5s ease;
+       width: 112px;
+       /* height: 150px; */
+   }
+    .home {
+        width: 120px;
+
+    }
+
+    .home:hover {
+        transition: all 0.5s ease;
+        width: 123px;
+        background: url('/img/first-site/day-version/home-btn-hover.png');
+        background-size: 122px;
+    }
+
+    .news {
+        width: 100px;
+    }
+
+    .news:hover {
+        transition: all 0.5s ease;
+        width: 103px;
+        background: url('/img/first-site/day-version/news-hover.png');
+        background-size: 102px;
+    }
+
+    .trial {
+        width: 108px;
+    }
+
+    .trial:hover {
+        transition: all 0.5s ease;
+        width: 111px;
+        background: url('/img/first-site/day-version/trial-hover.png');
+        background-size: 110px;
+    }
+
+    .rules {
+        width: 117px;
+    }
+
+    .rules:hover {
+        transition: all 0.5s ease;
+        width: 120px;
+        background: url('/img/first-site/day-version/rules-hover.png');
+        background-size: 119px;
+    }
+
+    .logo-img {
+        width: 110px;
+        padding-top: 42px;
+    }
+
+    .logo-text {
+        width: 160px;
+    }
+}
